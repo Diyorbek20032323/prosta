@@ -6,12 +6,19 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;   
 }
-
+.site-header-actions{
+    display: flex;
+    align-items: center;
+}
 
 .site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color:#fff ;
 }
 .sitenav-list{
+    display: flex;
     list-style: none;
 }
 
@@ -32,6 +39,9 @@ body{
     text-decoration: none;
 }
 .hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #252420;
     color: #fff;
 }
@@ -69,6 +79,11 @@ body{
     font-style: 72px;
     line-height: 1.2;
     letter-spacing: 0.5px;
+}
+.feature-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
 }
 
 .feature{
